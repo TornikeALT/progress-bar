@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container {
+  width: 50vw;
+  height: 30px;
+  border-radius: 40px;
+  border-style: none;
+  background-color: #cdcdcd;
+  color: red;
+  position: relative;
+  z-index: -1;
+}
+.insideContainer {
+  height: 28px;
+  display: grid;
+  border-style: none;
+  place-items: center;
+  border-radius: 20px;
+  margin: auto;
+  background: linear-gradient(to left, #f2709c, #ff9472);
+  box-shadow: 0 3px 3px -5px #f2709c, 0 2px 5px #f2709c;
+  color: white;
+  position: absolute;
+  transition: 1.5s ease 0.3s;
+  z-index: 100;
+}
+.App input {
+  appearance: textfield;
+  background-color: #80808033;
+  border: none;
+  width: 80px;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App input,
+label {
+  margin: 1rem;
+  color: #f2709c;
+}
+h1 {
+  color: #f2709c;
+}
